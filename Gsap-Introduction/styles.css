@@ -1,0 +1,16 @@
+/* Global styles come from external css https://codepen.io/GreenSock/pen/gOWxmWG */
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: rgb(73, 72, 72);
+}
+
+.logo {
+  width: 300px;
+}
+
+.name {
+  color: white;
+}
