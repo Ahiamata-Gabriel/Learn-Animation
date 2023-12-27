@@ -4,3 +4,10 @@ gsap.to('#demo', {
   backgroundColor: '#560563',
   ease: 'slow(0.7,0.7,false)',
 });
+
+gsap.from('.hero__image', {
+  duration: 1.5,
+  scale: 0.3,
+  ease: 'in',
+  x: 50,
+});
