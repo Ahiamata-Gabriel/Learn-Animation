@@ -9,6 +9,7 @@ body {
 
 .logo {
   width: 300px;
+  left: -300px;
 }
 
 .name {
