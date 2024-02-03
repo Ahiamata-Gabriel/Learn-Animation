@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fee;
+  background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E');
+}
+
+.mainContent {
+  background: #9fa8da;
+  padding: 2vw;
+}
+
+.footer {
+  background: #1d1d1d;
+  color: #ccc;
+}
+
+.animation {
+  height: 50vh;
+  background: #ffca28;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+p {
+  font-size: 2.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 3vw;
+  }
+}
+
+.herman {
+  width: 25vh;
+}
+
+/* from Sarah Drasner's Hero Generator */
+
+/* Photo by Benjamin Voros on Unsplash  https://unsplash.com/photos/phIFdC6lA4E */
+
+.masthead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+  overflow: hidden;
+  background-size: cover;
+  background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 37%,
+      rgba(0, 0, 0, 0.65) 100%
+    ),
+    url('./imgs/001.jpg') no-repeat center center scroll;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  color: #eee;
+  font-size: 11vmin;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+}
+
+div.button {
+  background: #7cb342;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* .masthead,
+.mainContent,
+.footer {
+  display:none;
+} */
+
+/* .gsap-marker-scroller-start {
+  background:white;
+} */
