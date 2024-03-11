@@ -2,13 +2,19 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  /* background-color: rgb(73, 72, 72); */
+  background-color: rgb(23, 182, 163);
 }
 
-.Wrapper {
+/* .inside-body {
+  display: flex;
+  gap: 15px;
+} */
+
+.item {
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-size: 40px;
 }
 
 .dot {
@@ -18,3 +24,12 @@ body {
   border-radius: 50%;
   margin-right: 5px;
 }
+
+/* .dot:hover {
+  background-color: #f93;
+  scale: 1.5;
+}
+
+.text:hover{
+  
+} */
