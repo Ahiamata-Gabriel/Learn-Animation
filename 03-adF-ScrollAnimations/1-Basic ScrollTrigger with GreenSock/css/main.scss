@@ -27,6 +27,7 @@ section.middle {
   display: flex;
   align-items: flex-start;
   height: calc(100vh - 16em);
+  // background-color: red;
 
   > * {
     flex: 1;
