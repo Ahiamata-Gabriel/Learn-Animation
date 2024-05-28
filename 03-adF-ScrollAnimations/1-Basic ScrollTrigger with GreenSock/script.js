@@ -3,12 +3,12 @@ const tl = gsap.timeline({
     trigger: ".middle",
     start: "top center",
     end: "bottom 20%",
-    //markers: true,
+    // markers: true,
   },
 });
 
 tl.from(["h2", "h3", "p"], {
-  yPercent: 140,
+  yPercent: 150,
   stagger: 0.1,
 }).from(
   ".box",
