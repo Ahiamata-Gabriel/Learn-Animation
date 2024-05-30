@@ -3,6 +3,7 @@ const tl = gsap.timeline({
     trigger: ".middle",
     start: "top 20%",
     end: "bottom+=20% center",
+    toggleActions: "play reverse play reverse",
 
     /* 
           The 4 states of Toggle Actions:
