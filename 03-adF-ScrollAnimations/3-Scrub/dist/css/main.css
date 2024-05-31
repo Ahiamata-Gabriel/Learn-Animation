@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: #E0E1B7;
+  background-color: #e0e1b7;
   font-family: "Inter", sans-serif;
 }
 
@@ -43,7 +43,8 @@ section.primary main p {
   margin-bottom: 4em;
 }
 
-.line, span {
+.line,
+span {
   position: absolute;
 }
 
