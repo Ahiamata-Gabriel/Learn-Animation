@@ -4,7 +4,7 @@ import gsap from "gsap";
 const GsapFromTo = () => {
   // TODO: Implement the gsap.fromTo() method
   useGSAP(() => {
-    gsap.fromTo("#red-box", {}, {});
+    gsap.fromTo("#red-box", { x: 0 }, { x: 150, duration: 2 });
   });
 
   return (
