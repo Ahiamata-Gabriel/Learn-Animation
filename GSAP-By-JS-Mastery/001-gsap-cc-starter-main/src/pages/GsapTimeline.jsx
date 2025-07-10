@@ -18,6 +18,15 @@ const GsapTimeline = () => {
       duration: 2,
       ease: "back.inOut",
     });
+
+    tl.to("#yellow-box", {
+      y: -250,
+      scale: 2,
+      rotation: 360,
+      borderRadius: "100%",
+      duration: 2,
+      ease: "back.inOut",
+    });
   });
 
   return (
