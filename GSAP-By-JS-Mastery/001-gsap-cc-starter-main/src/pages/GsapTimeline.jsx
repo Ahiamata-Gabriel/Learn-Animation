@@ -1,12 +1,23 @@
 /* eslint-disable no-unused-vars */
+import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const GsapTimeline = () => {
   // TODO: Implement the gsap timeline
-  const timeline = gsap.timeline({
+  const tl = gsap.timeline({
     repeat: -1,
     repeatDelay: 1,
     yoyo: true,
+  });
+
+  useGSAP(() => {
+    tl.to("#yellow-box", {
+      x: 250,
+      rotation: 360,
+      borderRadius: "100%",
+      duration: 2,
+      ease: "back.inOut",
+    });
   });
 
   return (
